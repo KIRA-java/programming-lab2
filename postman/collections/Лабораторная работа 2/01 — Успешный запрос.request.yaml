@@ -1,0 +1,27 @@
+$kind: http-request
+url: http://localhost:8082/feedback
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"uid\": \"1\",\r
+
+    \  \"operationUid\": \"operation-1\",\r
+
+    \  \"systemName\": \"ERP\",\r
+
+    \  \"systemTime\": \"2026-10-13T15:30:00Z\",\r
+
+    \  \"source\": \"Postman\",\r
+
+    \  \"communicationId\": 1,\r
+
+    \  \"templateId\": 1,\r
+
+    \  \"productCode\": 1,\r
+
+    \  \"smsCode\": 1234\r
+
+    }"
+order: 10000
